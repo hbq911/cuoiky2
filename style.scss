@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+//Size ảnh nền = size header
+body{
+    background-image: 300px;
+}
+//Trang trí dòng đại học khoa học huế, làm đen nền
+.f-line{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.622);
+}
+//Trang trí header
+header{
+    //đường biên màu trắng 5 pixel
+    border-bottom: 5px solid white;
+    .header{
+        //chỉnh nền phủ lớp tối màu
+        background-color: rgba(0, 0, 0, 0.4);
+
+        .chandung{
+            //chiều cao/rộng 200 pixel
+            height: 200px;
+            width: 200px;
+            //làm tròn ảnh
+            border-radius: 50%;
+            //chỉnh đường biên 5 pixel và đường biên có màu trắng
+            border: 5px solid white;
+        }
+    }
+    //chữ màu trắng, căn lề giữa, chiều cao dòng 3 em, kích thước chữ 20pixel
+    color: white;
+    text-align: center;
+    line-height: 3em;
+    font-size: 20px;
+}
+
+.container{
+    //nền đen, chữ trắng,
+    background-color: black;
+    color: white;
+    ul{
+        //Chữ tiêu đề mỗi mục 30 pixel, cách lề trái 7 em
+        font-size: 30px;
+        padding-left: 7em;
+        
+        li{
+            //Kích thước chữ trong mỗi mục 20pixel 
+            font-size:20px;
+        }
+    }
+}
+
